@@ -1,0 +1,58 @@
+{
+  "convergent": {
+    "characteristics": "goal-directed search, gradient descent optimization",
+    "use_cases": [
+      "debugging",
+      "performance optimization",
+      "focused implementation"
+    ],
+    "architecture": "feedforward networks with skip connections",
+    "memory_usage": "23MB",
+    "accuracy": 0.92,
+    "simd_optimized": true
+  },
+  "divergent": {
+    "characteristics": "monte carlo tree search, genetic algorithms",
+    "use_cases": [
+      "creative solution generation",
+      "architecture design"
+    ],
+    "architecture": "variational autoencoders, GANs",
+    "memory_usage": "31MB",
+    "accuracy": 0.87,
+    "simd_optimized": true
+  },
+  "systems": {
+    "characteristics": "holistic analysis, dependency graphs",
+    "use_cases": [
+      "architecture design",
+      "system integration"
+    ],
+    "architecture": "RNNs for temporal dependencies, graph CNNs",
+    "memory_usage": "38MB",
+    "accuracy": 0.91,
+    "simd_optimized": true
+  },
+  "critical": {
+    "characteristics": "adversarial analysis, edge case generation",
+    "use_cases": [
+      "code review",
+      "security audits"
+    ],
+    "architecture": "adversarial networks, uncertainty quantification",
+    "memory_usage": "29MB",
+    "accuracy": 0.89,
+    "simd_optimized": true
+  },
+  "lateral": {
+    "characteristics": "cross-domain knowledge transfer",
+    "use_cases": [
+      "cross-language recognition",
+      "domain adaptation"
+    ],
+    "architecture": "transformers with cross-attention",
+    "memory_usage": "41MB",
+    "accuracy": 0.78,
+    "simd_optimized": false
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "name": "strudel-pattern-transformer",
+  "type": "specialized",
+  "category": "strudel-music",
+  "description": "Transforms and manipulates patterns algorithmically for dynamic variations",
+  "capabilities": {
+    "expertise": [
+      "pattern_manipulation",
+      "algorithmic_transformation",
+      "conditional_logic",
+      "probability",
+      "accumulation"
+    ],
+    "transformations": [
+      "every()",
+      "sometimes()",
+      "rarely()",
+      "almostAlways()",
+      "degrade()",
+      "degradeBy()"
+    ],
+    "pattern_modifiers": [
+      "jux()",
+      "chunk()",
+      "shuffle()",
+      "scramble()",
+      "rev()",
+      "palindrome()",
+      "rotate()"
+    ],
+    "conditionals": [
+      "when()",
+      "whenmod()",
+      "mask()",
+      "struct()",
+      "euclid()",
+      "euclidLegato()"
+    ],
+    "accumulation": [
+      "scan()",
+      "foldp()",
+      "accumulate()",
+      "iterate()"
+    ],
+    "randomization": [
+      "rand()",
+      "irand()",
+      "choose()",
+      "wchoose()",
+      "perlin()"
+    ],
+    "functions": [
+      "every()",
+      "sometimes()",
+      "rarely()",
+      "degrade()",
+      "jux()",
+      "chunk()",
+      "shuffle()",
+      "when()",
+      "mask()",
+      "struct()"
+    ],
+    "strudel_code_examples": [
+      ".every(4, x => x.fast(2))",
+      ".sometimes(x => x.add(12))",
+      ".jux(rev).chunk(4, fast)"
+    ]
+  },
+  "ruv_pattern_preference": "divergent",
+  "cognitive_enhancement": {
+    "pattern": "divergent",
+    "accuracy": 0.87,
+    "memory_usage": "31MB",
+    "description": "Creative exploration for innovative pattern variations"
+  },
+  "performance_metrics": {
+    "efficiency": 0.90,
+    "success_rate": 0.88,
+    "variation_score": 0.93
+  },
+  "usage_instructions": "Use for creating variations, adding probability, conditional patterns, or algorithmic transformations",
+  "version": "1.0.0",
+  "created": "2025-01-18",
+  "author": "symbiotic-stack"
+}

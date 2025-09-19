@@ -1,0 +1,91 @@
+{
+  "specification": {
+    "agent_assignment": [
+      "researcher",
+      "domain_specialist"
+    ],
+    "ruv_pattern": "convergent",
+    "activities": [
+      "requirement decomposition",
+      "feasibility assessment"
+    ],
+    "quality_gates": {
+      "requirements_coverage": 1.0,
+      "ambiguous_statements": 0.05
+    },
+    "expected_accuracy": 0.93
+  },
+  "pseudocode": {
+    "agent_assignment": [
+      "coder",
+      "architect"
+    ],
+    "ruv_pattern": "divergent",
+    "activities": [
+      "algorithm selection",
+      "data structure design"
+    ],
+    "quality_gates": {
+      "function_coverage": 1.0,
+      "optimal_complexity": true
+    },
+    "expected_accuracy": 0.87
+  },
+  "architecture": {
+    "agent_assignment": [
+      "architect",
+      "systems_specialist"
+    ],
+    "ruv_pattern": "systems",
+    "activities": [
+      "component decomposition",
+      "technology selection"
+    ],
+    "quality_gates": {
+      "scalability": "10x",
+      "modular_design": true,
+      "security_comprehensive": true
+    },
+    "expected_accuracy": 0.91
+  },
+  "refinement": {
+    "agent_assignment": [
+      "coder",
+      "tester",
+      "reviewer"
+    ],
+    "ruv_pattern": [
+      "convergent",
+      "critical"
+    ],
+    "activities": [
+      "implementation",
+      "testing",
+      "optimization"
+    ],
+    "quality_gates": {
+      "test_coverage": 0.9,
+      "sla_compliance": true,
+      "security_validation": true
+    },
+    "expected_accuracy": 0.94
+  },
+  "completion": {
+    "agent_assignment": [
+      "ops_specialist",
+      "documenter"
+    ],
+    "ruv_pattern": "systems",
+    "activities": [
+      "deployment",
+      "monitoring",
+      "documentation"
+    ],
+    "quality_gates": {
+      "zero_downtime": true,
+      "complete_monitoring": true,
+      "comprehensive_docs": true
+    },
+    "expected_accuracy": 0.89
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "name": "strudel-sample-curator",
+  "type": "specialized",
+  "category": "strudel-music",
+  "description": "Expert in sample selection, manipulation, chopping, and creative sampling in Strudel",
+  "capabilities": {
+    "expertise": [
+      "sample_selection",
+      "sample_manipulation",
+      "chopping",
+      "slicing",
+      "time_stretching"
+    ],
+    "sample_sources": [
+      "VCSL library",
+      "freesound.org",
+      "github repositories",
+      "custom samples",
+      "strudel.json files"
+    ],
+    "manipulation_techniques": [
+      "begin/end trimming",
+      "loop points",
+      "chop into parts",
+      "slice triggering",
+      "speed/pitch control",
+      "reverse playback"
+    ],
+    "sample_banks": [
+      "RolandTR808",
+      "RolandTR909",
+      "AmenBreak",
+      "CasioRZ1",
+      "LinnDrum",
+      "Vocals"
+    ],
+    "functions": [
+      "s()",
+      "samples()",
+      "n()",
+      "bank()",
+      "begin()",
+      "end()",
+      "loop()",
+      "chop()",
+      "slice()",
+      "speed()",
+      "fit()"
+    ],
+    "strudel_code_examples": [
+      "s(\"amen\").slice(8, \"<0 1 2 3 4 5 6 7>\")",
+      "s(\"vocals\").chop(16).speed(0.5)",
+      "samples('github:yaxu/clean-samples').bank(\"ab\")"
+    ]
+  },
+  "ruv_pattern_preference": "lateral",
+  "cognitive_enhancement": {
+    "pattern": "lateral",
+    "accuracy": 0.78,
+    "memory_usage": "41MB",
+    "description": "Cross-domain knowledge transfer for creative sample combinations"
+  },
+  "performance_metrics": {
+    "efficiency": 0.91,
+    "success_rate": 0.90,
+    "library_coverage": 0.95
+  },
+  "usage_instructions": "Call for sample selection, chopping breaks, vocal manipulation, or any sample-based sound design",
+  "version": "1.0.0",
+  "created": "2025-01-18",
+  "author": "symbiotic-stack"
+}

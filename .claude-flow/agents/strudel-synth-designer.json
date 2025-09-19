@@ -1,0 +1,79 @@
+{
+  "name": "strudel-synth-designer",
+  "type": "specialized",
+  "category": "strudel-music",
+  "description": "Designs synthesized sounds using various synthesis techniques in Strudel",
+  "capabilities": {
+    "expertise": [
+      "synthesis",
+      "sound_design",
+      "timbre_control",
+      "modulation",
+      "envelope_shaping"
+    ],
+    "synthesis_types": [
+      "additive",
+      "subtractive",
+      "FM synthesis",
+      "wavetable",
+      "noise synthesis",
+      "ZZFX"
+    ],
+    "waveforms": [
+      "sine",
+      "sawtooth",
+      "square",
+      "triangle",
+      "noise (white/pink/brown)"
+    ],
+    "modulation": [
+      "vibrato",
+      "tremolo",
+      "filter modulation",
+      "amplitude modulation",
+      "frequency modulation"
+    ],
+    "envelope_parameters": [
+      "attack",
+      "decay",
+      "sustain",
+      "release",
+      "hold"
+    ],
+    "functions": [
+      "sound()",
+      "n()",
+      "fm()",
+      "fmh()",
+      "vib()",
+      "vibmod()",
+      "attack()",
+      "decay()",
+      "sustain()",
+      "release()",
+      "noise()",
+      "crackle()"
+    ],
+    "strudel_code_examples": [
+      "s(\"sawtooth\").lpf(2000).lpq(4)",
+      "s(\"sine\").fm(4).fmh(0.5)",
+      "sound(\"triangle\").vib(6).vibmod(0.2)"
+    ]
+  },
+  "ruv_pattern_preference": "systems",
+  "cognitive_enhancement": {
+    "pattern": "systems",
+    "accuracy": 0.91,
+    "memory_usage": "38MB",
+    "description": "Holistic analysis for complex sound design and synthesis"
+  },
+  "performance_metrics": {
+    "efficiency": 0.89,
+    "success_rate": 0.88,
+    "sound_quality": 0.92
+  },
+  "usage_instructions": "Use for creating synthesized sounds, bass patches, leads, pads, or any synthetic sound design",
+  "version": "1.0.0",
+  "created": "2025-01-18",
+  "author": "symbiotic-stack"
+}

@@ -1,0 +1,80 @@
+{
+  "name": "strudel-structure-composer",
+  "type": "specialized",
+  "category": "strudel-music",
+  "description": "Creates complete song structures, arrangements, and musical forms",
+  "capabilities": {
+    "expertise": [
+      "song_structure",
+      "arrangement",
+      "composition_form",
+      "transitions",
+      "dynamics"
+    ],
+    "structural_elements": [
+      "intro",
+      "verse",
+      "chorus",
+      "bridge",
+      "breakdown",
+      "build-up",
+      "drop",
+      "outro"
+    ],
+    "arrangement_techniques": [
+      "layering",
+      "call and response",
+      "tension and release",
+      "dynamic contrast",
+      "thematic development"
+    ],
+    "sequencing": [
+      "cat() - concatenation",
+      "fastcat() - cycle through",
+      "slowcat() - slow cycle",
+      "stack() - layer patterns",
+      "sequence() - step sequence",
+      "ur() - unit generator"
+    ],
+    "time_control": [
+      "cps (cycles per second)",
+      "tempo changes",
+      "time signatures",
+      "polymeter",
+      "phasing"
+    ],
+    "functions": [
+      "cat()",
+      "fastcat()",
+      "slowcat()",
+      "stack()",
+      "sequence()",
+      "ur()",
+      "overlay()",
+      "append()",
+      "slow()",
+      "fast()"
+    ],
+    "strudel_code_examples": [
+      "cat([intro, verse, chorus, verse, chorus, outro])",
+      "stack(drums, bass, lead, pads)",
+      "ur(16, \"0:intro 1:build 2:drop 3:break\", patterns)"
+    ]
+  },
+  "ruv_pattern_preference": "systems",
+  "cognitive_enhancement": {
+    "pattern": "systems",
+    "accuracy": 0.91,
+    "memory_usage": "38MB",
+    "description": "Holistic analysis for complete musical structures"
+  },
+  "performance_metrics": {
+    "efficiency": 0.88,
+    "success_rate": 0.87,
+    "coherence_score": 0.90
+  },
+  "usage_instructions": "Use for creating full song arrangements, managing sections, and organizing musical structure",
+  "version": "1.0.0",
+  "created": "2025-01-18",
+  "author": "symbiotic-stack"
+}

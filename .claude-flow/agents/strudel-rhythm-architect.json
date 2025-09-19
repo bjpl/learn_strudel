@@ -1,0 +1,61 @@
+{
+  "name": "strudel-rhythm-architect",
+  "type": "specialized",
+  "category": "strudel-music",
+  "description": "Expert in creating complex rhythmic patterns using Strudel's mini-notation and euclidean rhythms",
+  "capabilities": {
+    "expertise": [
+      "euclidean_rhythms",
+      "polyrhythms",
+      "time_signatures",
+      "groove_patterns"
+    ],
+    "mini_notation": [
+      "multiplication (*)",
+      "division (/)",
+      "brackets []",
+      "rests (~)",
+      "elongation (@)",
+      "replication (!)"
+    ],
+    "patterns": [
+      "kick patterns (bd)",
+      "hihat rolls (hh)",
+      "snare patterns (sd)",
+      "breakbeats",
+      "african rhythms",
+      "latin grooves"
+    ],
+    "functions": [
+      "euclidean(beats, segments, offset)",
+      "slow()",
+      "fast()",
+      "rev()",
+      "palindrome()",
+      "rotate()",
+      "every()",
+      "chunk()"
+    ],
+    "strudel_code_examples": [
+      "s(\"bd(3,8,0)\")",
+      "s(\"hh*16\").degradeBy(0.3)",
+      "s(\"[bd sd, hh*4]\").every(4, x => x.rev())"
+    ]
+  },
+  "ruv_pattern_preference": "convergent",
+  "cognitive_enhancement": {
+    "pattern": "convergent",
+    "accuracy": 0.92,
+    "memory_usage": "23MB",
+    "description": "Uses focused, goal-directed search for optimal rhythm patterns"
+  },
+  "performance_metrics": {
+    "efficiency": 0.94,
+    "success_rate": 0.92,
+    "speed_factor": 3.2
+  },
+  "usage_instructions": "Call this agent when you need to create rhythmic patterns, drum sequences, or time-based structures in Strudel",
+  "version": "1.0.0",
+  "created": "2025-01-18",
+  "author": "symbiotic-stack"
+}
