@@ -34,77 +34,105 @@ Learn Strudel provides tools for music composition and orchestration using the S
 - Music generation coordination
 - Real-time analysis tools
 
-## Installation
+## Technical Overview
 
-### Prerequisites
+This project demonstrates **AI-powered music composition orchestration** using the Strudel live coding environment with Model Context Protocol (MCP) agents. The implementation showcases distributed agent coordination, symbiotic orchestration patterns, and performance monitoring for real-time music generation.
+
+**Key Technologies:**
+- Python 3.8+ for orchestration system
+- MCP (Model Context Protocol) for agent coordination
+- Strudel environment for live music coding
+- Performance analytics and monitoring dashboard
+
+**Implementation Highlights:**
+- Symbiotic MCP agent integration for collaborative composition
+- Multi-agent coordination for music generation workflows
+- Real-time performance monitoring and analytics
+- Latin melodic composition templates
+- Agent registration and lifecycle management
+
+## Exploring the Code
+
+The project structure demonstrates **distributed agent orchestration**:
+
+```
+learn_strudel/
+├── .claude/                              # Claude configuration
+├── .claude-flow/                         # Claude Flow settings
+├── .ruv-swarm/                           # RUV Swarm coordination
+├── latin_melodic_composition/            # Music templates
+├── mcp_symbiotic_config.json            # MCP configuration
+├── performance_dashboard.py             # Performance monitoring
+├── register_strudel_agents.py           # Agent registration
+├── setup_symbiotic_stack.py             # Stack initialization
+├── strudel_music_agents.py              # Music agent system
+├── strudel_orchestration_example.py     # Orchestration examples
+└── symbiotic_orchestrator.py            # Symbiotic coordination
+```
+
+**For Technical Review:**
+
+Those interested in the implementation details can explore:
+- `strudel_music_agents.py` for agent implementation patterns
+- `symbiotic_orchestrator.py` for coordination logic
+- `performance_dashboard.py` for monitoring implementation
+- `mcp_symbiotic_config.json` for MCP configuration
+- `latin_melodic_composition/` for music templates
+
+**Local Development** _(Optional for developers)_
+
+<details>
+<summary>Click to expand setup instructions</summary>
+
+**Prerequisites:**
 - Python 3.8 or higher
 - MCP framework
 - Strudel environment
 
-### Setup
-
-Clone the repository:
+**Setup:**
 
 ```bash
+# Clone repository
 git clone https://github.com/bjpl/learn_strudel.git
 cd learn_strudel
-```
 
-Install dependencies:
-
-```bash
+# Install dependencies
 pip install -r requirements.txt
 ```
 
-## Usage
+**Usage:**
 
-### Setup Symbiotic Stack
-
-Initialize the symbiotic orchestration system:
-
+Setup symbiotic stack:
 ```bash
 python setup_symbiotic_stack.py
 ```
 
-### Register Agents
-
-Register Strudel music agents:
-
+Register agents:
 ```bash
 python register_strudel_agents.py
 ```
 
-### Performance Monitoring
-
 Launch performance dashboard:
-
 ```bash
 python performance_dashboard.py
 ```
 
-### Orchestration
-
 Run orchestration example:
-
 ```bash
 python strudel_orchestration_example.py
 ```
 
-### Music Agents
-
-Execute Strudel music agents:
-
+Execute music agents:
 ```bash
 python strudel_music_agents.py
 ```
 
-### Symbiotic Orchestrator
-
 Run symbiotic orchestrator:
-
 ```bash
 python symbiotic_orchestrator.py
 ```
+
+</details>
 
 ## Project Structure
 
